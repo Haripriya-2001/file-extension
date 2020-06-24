@@ -1,0 +1,15 @@
+#To get the input of the file name as well as its extension#
+
+Input:
+import os
+file_name=input("Enter file name: ")
+print(file_name)
+print("Input the filename: ", (file_name))
+print("The extension of the file name is: ",(os.path.splitext(file_name)))
+#here os is the operating system of the file and path.splitext which is used in file handling in python for splitting the last text that is the extension of the text#
+
+Output:
+Enter file name: abc.py
+abc.py
+Input the filename:  abc.py
+The extension of the file name is:  ('abc', '.py')
